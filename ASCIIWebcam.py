@@ -2,12 +2,8 @@ from PIL import ImageDraw,ImageFont,Image
 import cv2
 import numpy as np
 import math
-from tkinter import Tk
+#from tkinter import Tk
 #--------------------------------------------------------
-
-
-
-filename = "testforASCII.mp4"
 #.'`^\",:;Il!i><~+_-?][}{1)(|\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$
 chars = " .'`^\",:;Il!i><~+_-?][}{1)(|\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
 charlist=list(chars)
